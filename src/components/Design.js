@@ -14,7 +14,7 @@ const Design = () => {
   return (
     <div className="w-full h-full">
       <Particles
-        className="w-full h-screen"
+        className="w-full h-screen sm:w-1/2"
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -42,11 +42,11 @@ const Design = () => {
             },
             modes: {
               push: {
-                quantity: 4,
+                quantity: 6,
               },
               repulse: {
-                distance: 150,
-                duration: 0.4,
+                distance: 250,
+                duration: 0.6,
               },
             },
           },

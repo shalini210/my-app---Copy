@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Servicesdemo from "@/components/Servicesdemo";
 import Whyus from "@/components/Whyus";
 import Ceomsg from "@/components/Ceomsg";
+import About from "@/components/About";
 export default function Home() {
   useEffect(() => {
     // alert($("#input").val())
@@ -12,18 +13,14 @@ export default function Home() {
 
   return (
     <>
-    {/* <Contact></Contact> */}
-    {/* <Servicepage></Servicepage> */}
-{/* <About></About> */}
-   {/* <Webheader></Webheader>
-   <Slider></Slider>
-   */}
+    
    <Servicesdemo></Servicesdemo>
-   <Whyus></Whyus> 
+   <About></About>
+   {/* <Whyus></Whyus> 
    
     <Ceomsg></Ceomsg> 
      
-    
+     */}
     </>
   );
 }

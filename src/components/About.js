@@ -8,29 +8,32 @@ import { Fade } from "react-awesome-reveal";
 export default function About() {
   return (
     <>
-<div id="about" class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-[#032D50]">
+<div id="about" class="bg-gradient-to-r from-indigo-500
+ from-10% via-sky-500 via-30% to-[#032D50] w-full">
     {/* <div className="bg-[#032D50]"> */}
-    <Slide   direction="up"  cascade damping={0.1} duration={500}>
-  <div className="text-white text-center text-2xl py-12 ">
+    <Slide   direction="up"  cascade damping={0.1} duration={100}>
+  <div className="text-white w-full text-center text-2xl py-12 ">
     About us
   </div>
-  <div className="flex px-24  gap-12 w-full text-white ">
-    <div className="w-1/3  aspect-square bg-[#032D50]"></div>
-  <p className="w-2/3 flex pt-12 text-lg tracking-widest leading-8">
+  <div className="sm:flex-col  md:flex  mx-4 
+   md:px-24 gap-0 md:gap-12  text-white ">
+    <div className="w-full md:w-1/3  aspect-square bg-[#032D50]"></div>
+  <p className="w-full  md:w-2/3 flex pt-12  md:text-lg
+   tracking-widest leading-6 text-center">
   At [Your Company Name], we specialize in delivering advanced AI and machine learning solutions that drive measurable business outcomes. With a deep understanding of the latest technologies, we create customized AI systems that streamline operations, enhance decision-making, and unlock new growth opportunities for our clients. Our team of experts combines technical excellence with industry knowledge to deliver AI-driven innovations that keep businesses competitive in an evolving market.
   </p>
   </div>
-{/* </Slide>
+</Slide>
 
-<Slide  direction="r"> */}
+<Slide  direction="r"> 
   <div className="text-white text-center  text-2xl py-7">
   Our Values
   </div>
 
 
-<div className="flex gap-4  justify-around  bg-[#032D50]">
+<div className="flex-col md:flex md:gap-4  justify-around  bg-[#032D50]">
 <AttentionSeeker effect="headShake" cascade damping={0.5}>
-    <div className="  py-7">
+    <div className="py-7">
         
 <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
@@ -60,8 +63,10 @@ export default function About() {
 
 
 
-<div className="flex  bg-[#032D50]  py-14 px-8 justify-center gap-12 ">
-<div className="w-1/2 py-7">
+<div className=" flex-col md:flex  bg-[#032D50]  py-14 px-8 justify-center gap-12 ">
+<div className="md:w-1/2 py-7">
+<h1 class="text-3xl text-center font-bold text-white my-6">
+      Our Approach</h1>
 <div class="w-full  relative ">
       <div class="border-l-2 mt-2">
          {/* Card 1 */}
@@ -137,9 +142,9 @@ export default function About() {
     </div>
 </div>
 </div>
-<div className="w-1/3 py-7 text-white">
-<h1 class="text-3xl text-center font-bold text-white my-6">
-      Our Approach</h1>
+<div className="md:w-1/3 py-7 text-white">
+{/* <h1 class="text-3xl text-center font-bold text-white my-6">
+      Our Approach</h1> */}
       <p className="leading-8">Our client-focused approach ensures that every AI solution we develop is tailored to meet specific business needs. From the initial consultation to deployment, we work alongside our clients to ensure seamless integration of AI technology into their operations.</p>
 </div>    
 

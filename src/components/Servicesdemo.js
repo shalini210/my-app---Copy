@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import Servicepage, { useRef } from "react";
 import { useInView } from "framer-motion";
 import Link from"next/link"
 // import viewpor
@@ -32,9 +32,9 @@ export default function Servicesdemo() {
     <div id='services' className="relative bg-fixed overflow-hidden
  bg-[#032e50] pt-16 pb-32  space-y-36 md:px-8">
 
-      <Section className="pt-2"> 
+      <Section className="pt-2 "> 
     
-        <div className="lg:mx-auto
+        <div className="px-2 lg:mx-auto
          lg:grid lg:max-w-7xl lg:grid-flow-col-dense
           lg:grid-cols-2 lg:gap-24 lg:px-8 ">
             <div className="max-w-xl 
@@ -57,10 +57,10 @@ export default function Servicesdemo() {
 
                     <div >
                         
-      <div className="text-3xl  font-bold tracking-tight text-white">
+      <div className=" sm:text-xl text-xl  md:text-3xl  font-bold tracking-tight text-white">
                         AI Solutions
                         </div>
-                        <p className="mt-4 text-lg text-gray-300">
+                        <p className="mt-4 text-md md:text-xl text-gray-300">
                             The AI product utilizes advanced NLP algorithms to understand and interpret human language,
                             enabling it to accurately process and analyze text-based inputs.
                         </p>
@@ -69,7 +69,11 @@ export default function Servicesdemo() {
                                 href="/login">
                                 Learn More
                             </a> */}
-                            <Link  className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link>
+                            <Link 
+                             className="inline-flex rounded-lg
+                              bg-pink-600 px-4 py-1.5
+                               text-base font-semibold 
+                               leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link>
                         </div>
                     </div>
                 </div>
@@ -175,6 +179,7 @@ export default function Servicesdemo() {
             </div>
         </div>
    </Section>
+
       </div>
     </>
   );

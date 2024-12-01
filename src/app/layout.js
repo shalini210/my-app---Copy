@@ -14,13 +14,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
       {/* <script src="https://gist.github.com/johnpolacek/c7ddd607a4d5dbf43f38ae7266f6de18.js"></script> */}
       <body className={inter.className}>
       <Webheader></Webheader>
         {children}
    
         <Footer1></Footer1>
-   
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
       </body>
      
     </html>
