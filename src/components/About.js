@@ -66,7 +66,7 @@ export default function About() {
 
 
 <h1 class="text-3xl text-center font-bold bg-[#032D50] text-white
- py-6">
+ py-5">
       Our Approach</h1>
 <div className=" flex-col md:flex md:flex-row bg-[#032D50]
   py-14 px-8 justify-center gap-12 ">
