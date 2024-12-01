@@ -15,10 +15,11 @@ export default function About() {
   <div className="text-white w-full text-center text-2xl py-12 ">
     About us
   </div>
-  <div className="sm:flex-col  md:flex  mx-4 
-   md:px-24 gap-0 md:gap-12  text-white ">
-    <div className="w-full md:w-1/3  aspect-square bg-[#032D50]"></div>
-  <p className="w-full  md:w-2/3 flex pt-12  md:text-lg
+  <div className="sm:flex-col  md:flex-row flex w-full md:w-full sm:mx-4
+    md:mx-0
+   md:px-24 sm:gap-0 md:gap-12  text-white ">
+    <div className="sm:w-full md:w-1/3  aspect-square bg-[#032D50]"></div>
+  <p className="sm:w-full  md:w-2/3  flex pt-12  md:text-lg
    tracking-widest leading-6 text-center">
   At [Your Company Name], we specialize in delivering advanced AI and machine learning solutions that drive measurable business outcomes. With a deep understanding of the latest technologies, we create customized AI systems that streamline operations, enhance decision-making, and unlock new growth opportunities for our clients. Our team of experts combines technical excellence with industry knowledge to deliver AI-driven innovations that keep businesses competitive in an evolving market.
   </p>
@@ -31,9 +32,10 @@ export default function About() {
   </div>
 
 
-<div className="flex-col md:flex md:gap-4  justify-around  bg-[#032D50]">
+<div className="sm:flex-col md:flex md:flex-row  md:gap-4 
+ justify-around  bg-[#032D50]">
 <AttentionSeeker effect="headShake" cascade damping={0.5}>
-    <div className="py-7">
+    <div className="py-7 sm:w-full  ">
         
 <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
@@ -42,7 +44,7 @@ export default function About() {
 <p class="font-normal text-gray-700 dark:text-gray-400">We are committed to transparent, ethical practices in every aspect of our work.</p>
 </a>
     </div>
-    <div className=" py-7">        
+    <div className=" py-7 sm:w-full ">        
 <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Collaboration</h5>
 <p class="font-normal text-gray-700 dark:text-gray-400">We work closely with clients, ensuring their goals and challenges are understood and addressed.</p>
@@ -50,7 +52,7 @@ export default function About() {
 </a>
 
     </div>
-    <div className="   py-7">    
+    <div className="   py-7 sm:w-full ">    
 <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Excellence</h5>
 <p class="font-normal text-gray-700 dark:text-gray-400">We deliver the highest standards in every project, focusing on results and long-term success.</p>
@@ -63,11 +65,14 @@ export default function About() {
 
 
 
-<div className=" flex-col md:flex  bg-[#032D50]  py-14 px-8 justify-center gap-12 ">
-<div className="md:w-1/2 py-7">
-<h1 class="text-3xl text-center font-bold text-white my-6">
+<h1 class="text-3xl text-center font-bold bg-[#032D50] text-white py-6">
       Our Approach</h1>
-<div class="w-full  relative ">
+<div className=" flex-col md:flex md:flex-row bg-[#032D50]
+  py-14 px-8 justify-center gap-12 ">
+
+<div className=" md:w-1/2 py-7">
+
+<div class="sm:w-full   relative ">
       <div class="border-l-2 mt-2">
          {/* Card 1 */}
         <div class="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-blue-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
