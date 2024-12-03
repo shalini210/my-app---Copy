@@ -1,6 +1,8 @@
-import Servicepage, { useRef } from "react";
+import  { useRef } from "react";
+import Servicepage from "./Servicepage";
 import { useInView } from "framer-motion";
 import Link from"next/link"
+import Servicecard from "./Servicecard";
 // import viewpor
 // import "./styles.css";
 
@@ -27,6 +29,7 @@ function Section({ children }) {
 }
 
 export default function Servicesdemo() {
+    
   return (
     <>
     <div id='services' className="relative bg-fixed overflow-hidden
@@ -35,56 +38,9 @@ export default function Servicesdemo() {
       <Section className="pt-2 "> 
     
         <div className="px-2 lg:mx-auto
-         lg:grid lg:max-w-7xl lg:grid-flow-col-dense
-          lg:grid-cols-2 lg:gap-24 lg:px-8 ">
-            <div className="max-w-xl 
-            lg:mx-0 lg:max-w-none  lg:px-0 ">
-
-                <div className='flex w-full gap-8 sm:px-6'>
-                   
-                        <span className="flex h-12 aspect-square
-                        items-center justify-center rounded-xl 
-                         bg-pink-500">
-     <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-      viewBox="0 0 24 24"  stroke-width="1.5" stroke="currentColor" aria-hidden="true"
-                                className="h-8 w-8 text-white">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z">
-                                </path>
-                            </svg>
-                        </span>
-               
-
-                    <div >
-                        
-      <div className=" sm:text-xl text-xl  md:text-3xl  font-bold tracking-tight text-white">
-                        AI Solutions
-                        </div>
-                        <p className="mt-4 text-md md:text-xl text-gray-300">
-                            The AI product utilizes advanced NLP algorithms to understand and interpret human language,
-                            enabling it to accurately process and analyze text-based inputs.
-                        </p>
-                        <div className="mt-6">
-                            {/* <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/login">
-                                Learn More
-                            </a> */}
-                            <Link 
-                             className="inline-flex rounded-lg
-                              bg-pink-600 px-4 py-1.5
-                               text-base font-semibold 
-                               leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-                <div className=" sm:mx-0 sm:-mr-48  md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0 ">
-                    <img loading="lazy" 
-                        className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                        style={{color:"transparent"}} src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"/>
-                </div>
-            </div>
+          lg:max-w-7xl lg:grid-flow-col-dense
+           lg:gap-24 lg:px-8 ">
+           <Servicepage></Servicepage>
        
     </div>
         </Section>

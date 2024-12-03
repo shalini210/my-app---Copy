@@ -15,15 +15,16 @@ export default function Servicecard(props) {
     ,[])
   return (
     <Slide   direction="up"  cascade damping={0.1} duration={500}>
-    <section class="border-2 rounded-s shadow-xl my-5
-     shadow-blue-800  p-2 antialiased w-full" style={{backgroundColor:props.clr}}>
+    <section style={{backgroundColor:props.clr}}
+     class="border-2 rounded-s shadow-xl my-5
+     shadow-blue-800  p-2 antialiased ">
     <article
         class=" flex flex-wrap w-full   text-white
          md:flex-nowrap gap-4 shadow-lg 
          group cursor-pointer transform duration-500
           hover:-translate-y-1">
       
-        <div class="w-full">
+        <div class="w-full px-10 ">
             <div class="w-full">
                 <h1 class="text-2xl   font-semibold 
                 text-white p-2 ">

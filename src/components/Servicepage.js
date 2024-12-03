@@ -5,6 +5,7 @@ import { useInView } from "framer-motion";
 import {motion} from "framer-motion"
 import { AttentionSeeker, Bounce, Slide } from "react-awesome-reveal";
 import Servicecard from "./Servicecard";
+import computervision from "../images/cv.jpg"
 export default function Servicepage() {
     var keyservices=[[
         "Image and Video Recognition for Security and Surveillance",
@@ -66,9 +67,14 @@ export default function Servicepage() {
  <div class="container relative flex flex-col
  mt-6 justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 ">
     <h2 className="text-center text-3xl bg-blue-700 text-white text-bold">AI Software & Tools Integration:</h2>
-<Servicecard heading="Computer Vision" clr="#1c64f3"
+    <div className="flex h-full">
+{/* <img src={computervision}></img> */}
+<div className=" bg-[url('../images/cv.jpg')] w-full bg-cover bg-center  ">
+    
+<Servicecard heading="Computer Vision" clr="#1c64f3" className=""
 keyservices={keyservices[0]} subheading="Our AI sees what others don’t—whether it’s identifying patterns or recognizing faces.”"
  des="Leverage the power of Computer Vision to unlock insights from visual data. Whether you’re looking to enhance security, improve product quality, or deliver immersive augmented reality experiences, our Computer Vision solutions can help. By analyzing images and videos in real-time, we provide actionable insights that can transform how you do business."></Servicecard>
+</div></div>
 
  <Servicecard heading="Natural Language Processing (NLP)" clr="#e91e63"
  subheading="“Turning text into insights—because words matter.”"
