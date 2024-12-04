@@ -14,7 +14,7 @@ export default function Servicecard(props) {
     }
     ,[])
   return (
-    <Slide   direction="up"  cascade damping={0.1} duration={500}>
+    // <Slide   direction="up"  cascade damping={0.1} duration={500}>
     <section style={{backgroundColor:props.clr}}
      class="border-2 rounded-s shadow-xl my-5
      shadow-blue-800  p-2 antialiased  w-1/2">
@@ -44,6 +44,6 @@ export default function Servicecard(props) {
         </div>
     </article>
 </section>
-</Slide>
+// </Slide>
   )
 }
