@@ -4,19 +4,19 @@ import bannerRight from "../assets/bannerRight.png";
 import Link from "next/link";
 const Banner = () => {
   return (
-    <div className="w-full flex justify-between items-center
+    <div className="w-full flex justify-between 
     
      text-black ">
-      <div className="flex flex-col gap-6 bg-cyan-200 mx-5 w-full 
-      py-4 md:py-20 text-center bg-opacity-30">
-        <h3 className="md:text-xl sm:text-lg   font-semibold">
+      <div className="flex flex-col gap-6 text-white mx-5 w-full 
+      py-4 md:py-20  bg-opacity-30">
+        <h3 className="md:text-xl sm:text-lg text-white   font-semibold">
         Unlock the Power of AI for Your Business
         </h3>
-        <h1 className="sm:text-4xl md:text-4xl  leading-tight text-gray-900">
+        <h1 className="sm:text-4xl md:text-4xl m-0 text-left leading-tight text-white">
         Let’s Get Started,Your AI Journey Begins Here <br />{" "}
           <span className="font-bold">"Go AI"</span>
         </h1>
-        <p className="text-sm text-gray-700 font-semibold">
+        <p className="text-sm text-white font-semibold">
         We build AI solutions that make your business smarter, faster, and ready for the future.”
         <br></br></p>
         <Link href="/contact" 

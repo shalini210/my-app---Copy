@@ -87,13 +87,15 @@ keyservices={keyservices[0]}
       <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
   </h2>
-  <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
-    <div class="p-5 border border-gray-200 dark:border-gray-700 border-b-0">
+  <div id="accordion-collapse-body-2" class="hidden h-[500px]" 
+  aria-labelledby="accordion-collapse-heading-2">
+    <div class="p-5 border border-gray-200 h-full dark:border-gray-700 border-b-0 flex">
     <Servicecard heading="Natural Language Processing (NLP)" 
  subheading="“Turning text into insights—because words matter.”"
  keyservices={keyservices[1]}
  des="“In today’s data-driven world, the ability to analyze and understand text is crucial. Our NLP services transform unstructured text data into valuable insights, enabling you to make informed decisions. Whether it’s customer feedback, social media content, or internal documents, our NLP tools help you extract meaning and gain a deeper understanding of what’s being communicated.”"></Servicecard>
- 
+    
+    <div class="w-1/2 bg-[url(../images/NLP.jpg)] h-full bg-cover"></div>
     </div>
   </div>
   <h2 id="accordion-collapse-heading-3">
@@ -113,7 +115,7 @@ des="Generative AI is all about creativity and innovation. Our solutions empower
   </div>
 
   <h2 id="accordion-collapse-heading-4">
-    <button type="button" class="flex items-center border focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border-gray-200 dark:border-gray-700 justify-between p-5 w-full font-medium text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+    <button type="button" class="flex items-center border focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border-gray-200 dark:border-gray-700 justify-between p-5 w-full font-medium text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-4">
       <span>Machine Learning</span>
       <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
@@ -132,7 +134,7 @@ des="Harness the power of Machine Learning to stay ahead of the curve. Our predi
 
 
   <h2 id="accordion-collapse-heading-5">
-    <button type="button" class="flex items-center border focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border-gray-200 dark:border-gray-700 justify-between p-5 w-full font-medium text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+    <button type="button" class="flex items-center border focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border-gray-200 dark:border-gray-700 justify-between p-5 w-full font-medium text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-5">
       <span>AI-Powered Web & Software Development</span>
       <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>

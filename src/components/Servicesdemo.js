@@ -34,7 +34,7 @@ export default function Servicesdemo() {
     <>
     <div id='services' className="relative bg-fixed overflow-hidden
  bg-[#032e50] pt-16 pb-32  space-y-36 md:px-8">
-    <Servicepage></Servicepage>
+    {/* <Servicepage></Servicepage> */}
  
       </div>
     </>

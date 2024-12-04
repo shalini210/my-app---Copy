@@ -13,7 +13,7 @@ const Design = () => {
   }, []);
   return (
     <div className="w-full h-full">
-      <Particles
+      {/* <Particles
         className="w-full h-screen sm:w-1/2"
         id="tsparticles"
         init={particlesInit}
@@ -93,7 +93,7 @@ const Design = () => {
           },
           detectRetina: true,
         }}
-      />
+      /> */}
     </div>
   );
 };
