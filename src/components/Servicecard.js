@@ -17,7 +17,7 @@ export default function Servicecard(props) {
     <Slide   direction="up"  cascade damping={0.1} duration={500}>
     <section style={{backgroundColor:props.clr}}
      class="border-2 rounded-s shadow-xl my-5
-     shadow-blue-800  p-2 antialiased ">
+     shadow-blue-800  p-2 antialiased  w-1/2">
     <article
         class=" flex flex-wrap w-full   text-white
          md:flex-nowrap gap-4 shadow-lg 
