@@ -80,10 +80,10 @@ const Header = () => {
                max-lg:fixed max-lg:bg-blue-950 max-lg:w-1/2 
                 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
               <li><Link href="/" > Home</Link></li>
-           <li><Link href="/about#about"> About</Link></li>
-           <li><Link href="/services#services"> Services</Link></li>
+           <li><Link href="#about"> About</Link></li>
+           <li><Link href="#services"> Services</Link></li>
           
-           <li><Link href="/contact#contact">Contact</Link></li>
+           <li><Link href="#contact">Contact</Link></li>
             </ul>
           </div>
           </div>
@@ -91,7 +91,7 @@ const Header = () => {
     <div className='flex items-center space-x-6  '>
             {/* <button className='font-semibold text-[15px] border-none outline-none'><a href='javascript:void(0)'
                 className='text-[#007bff] hover:underline'>CONTACT NO</a></button> */}
-            <Link href="/contact#contact" className="bg-green-600 py-1 px-6 rounded-xl text-base uppercase font-semibold">
+            <Link href="#contact" className="bg-green-600 py-1 px-6 rounded-xl text-base uppercase font-semibold">
          Email Us
         </Link>
       
