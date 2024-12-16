@@ -69,11 +69,11 @@ export default function Servicesdemo() {
                                 href="/login">
                                 Learn More
                             </a> */}
-                            <Link 
+                            {/* <Link 
                              className="inline-flex rounded-lg
                               bg-pink-600 px-4 py-1.5
                                text-base font-semibold 
-                               leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link>
+                               leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link> */}
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ export default function Servicesdemo() {
                                 href="/login">
                                 Learn More
                             </a> */}
-             <Link  className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link>
+             {/* <Link  className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link> */}
                         </div>
                         </div>
                     </div>
@@ -175,11 +175,11 @@ Leverage the power of Computer Vision to unlock insights from visual data.
                             href="/login">
                             Learn More
                         </a> */}
-                        <Link 
+                        {/* <Link 
                          className="inline-flex rounded-lg
                           bg-pink-600 px-4 py-1.5
                            text-base font-semibold 
-                           leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link>
+                           leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link> */}
                     </div>
                 </div>
             </div>
@@ -231,7 +231,7 @@ In today’s data-driven world, the ability to analyze and understand text is cr
                                 href="/login">
                                 Learn More
                             </a> */}
-             <Link  className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link>
+             
                         </div>
                         </div>
                     </div>
@@ -284,7 +284,7 @@ In today’s data-driven world, the ability to analyze and understand text is cr
                                 href="/login">
                                 Learn More
                             </a> */}
-                            <Link  className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link>
+                            {/* <Link  className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700" href="/services#services">Learn More</Link> */}
                         </div>
                     </div>
                     </div>
