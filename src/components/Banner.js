@@ -19,7 +19,7 @@ const Banner = () => {
         <p className="text-sm text-white font-semibold">
         We build AI solutions that make your business smarter, faster, and ready for the future.”
         <br></br></p>
-        <Link href="/contact" 
+        <Link href="#contact" 
         className="w-44 bg-cyan-400 mt-5 px-4 md:px-6 py-2 md:py-4 text-xl font-bold 
         uppercase rounded-full self-center">
           Call us
