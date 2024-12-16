@@ -97,13 +97,13 @@ export default function Footer1() {
  
 </div>
       {/* <!--Copyright section--> */}
-      <div className="bg-[#032D50] p-6 text-center dark:bg-neutral-700">
+      {/* <div className="bg-[#032D50] p-6 text-center dark:bg-neutral-700">
         <span>Design and Developed by:</span>
         <a
           className="font-semibold text-white dark:text-neutral-400"
           href="#"
         >Easy code </a>
-      </div>
+      </div> */}
     </footer>
   );
 }
